@@ -1,13 +1,13 @@
-import { Cards } from "./components/Cards";
-import { NavBar } from "./components/NavBar";
+import { Header } from "./components/Header";
+import { Main } from "./components/Main";
 
 export function App() {
 
   return (
-    <main>
-      <NavBar />
-      <Cards />
-    </main>
+    <>
+      <Header />
+      <Main />
+    </>
   )
 }
 
