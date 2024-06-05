@@ -5,8 +5,8 @@ export function App() {
 
   return (
     <>
-      <Header />
-      <Main />
+        <Header />
+        <Main />
     </>
   )
 }
