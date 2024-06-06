@@ -43,7 +43,7 @@ export function ContentModalLogin() {
         
             const response = await axios.post('http://localhost:5000/client', data, {
                 headers: {
-                    'Content-Type': 'application/json',
+                    'Content-Type': 'application/json'aaa
                 }
             });
         
